@@ -1,8 +1,6 @@
 import connectDB from "./db/index.js"       //Imported the ConnectDB Function to Connect to the MongoDB Database
 import dotenv from 'dotenv'                 //Imported the dotenv package to load environment Variables
-import express from "express"
-
-const app = express()
+import {app} from './app.js'
 
 //Configuring the dotenv to load the Environment Variables From the Given path
 dotenv.config({
